@@ -31,10 +31,10 @@ import hashlib
 
 # ==================== CONFIGURATION ====================
 
-API_ID = int(os.environ.get("API_ID", 6))
-API_HASH = os.environ.get("API_HASH", "eb06d4abfb49dc3eeb1aeb98ae0f581e")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
-ADMIN_IDS = [int(id) for id in os.environ.get("ADMIN_IDS", "123456789").split(",")]
+API_ID = int(os.environ.get("API_ID", 38435572))
+API_HASH = os.environ.get("API_HASH", "ff57bb1c607e93c8b850668ebd11f64")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8983688516:AAErpMm53MG1UEwGuGyzhRpS6uk9HkqLCKE")
+ADMIN_IDS = [int(id) for id in os.environ.get("ADMIN_IDS", "8674318569").split(",")]
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://user:pass@localhost/db")
 
 # ==================== TELEGRAM PREMIUM EMOJI IDs ====================
