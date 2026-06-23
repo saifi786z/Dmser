@@ -1,0 +1,6 @@
+pyrogram
+tgcrypto
+qrcode
+pillow
+asyncio
+psycopg2-binary
